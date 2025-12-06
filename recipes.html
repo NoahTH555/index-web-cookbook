@@ -1,75 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Cooking Mania | Recipes</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <header class="site-header">
-    <div class="logo">Cooking Mania</div>
-    <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <a href="recipes.html">Recipes</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<header class="site-header">
+  <div class="logo">Cooking Mania</div>
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-  <main>
-    <section class="section">
+<main class="page-container">
+  <section class="recipe-list">
+    <header class="recipe-list-header">
       <h1>All recipes</h1>
       <p>Pick a recipe card to see full ingredients and steps.</p>
+    </header>
 
-      <div class="recipe-grid">
-        <!-- Card 1 -->
-        <article class="recipe-card">
-          <div class="recipe-tag">Dessert</div>
-          <h3>
-            <a href="recipe-chocolate-bars.html" class="recipe-link">
-              Crunchy Chocolate Bars
-            </a>
-          </h3>
-          <p class="meta">Ready in 40 min · Serves 8</p>
-          <p class="description">
-            Crispy wafer-style bars covered in smooth milk chocolate.
-          </p>
-        </article>
+    <div class="recipe-grid">
+      <!-- Chocolate bars -->
+      <article class="recipe-card">
+        <span class="recipe-category">Dessert</span>
+        <h2>Crunchy Chocolate Bars</h2>
+        <p class="recipe-meta">Ready in 40 min · Serves 8</p>
+        <p class="recipe-description">
+          Crispy wafer-style bars covered in smooth milk chocolate.
+        </p>
+        <a class="recipe-link" href="recipe-chocolate-bars.html">View recipe</a>
+      </article>
 
-        <!-- Card 2 -->
-        <article class="recipe-card">
-          <div class="recipe-tag">Breakfast</div>
-          <h3>
-            <a href="recipe-pancakes.html" class="recipe-link">
-              Fluffy Pancakes
-            </a>
-          </h3>
-          <p class="meta">Ready in 25 min · Serves 4</p>
-          <p class="description">
-            Soft, light pancakes that work with berries, chocolate, or syrup.
-          </p>
-        </article>
+      <!-- Pancakes -->
+      <article class="recipe-card">
+        <span class="recipe-category">Breakfast</span>
+        <h2>Fluffy Pancakes</h2>
+        <p class="recipe-meta">Ready in 25 min · Serves 4</p>
+        <p class="recipe-description">
+          Soft, light pancakes that work with berries, chocolate, or syrup.
+        </p>
+        <a class="recipe-link" href="recipe-pancakes.html">View recipe</a>
+      </article>
 
-        <!-- Card 3 -->
-        <article class="recipe-card">
-          <div class="recipe-tag">Dinner</div>
-          <h3>
-            <a href="recipe-garlic-chicken.html" class="recipe-link">
-              One-Pan Garlic Chicken
-            </a>
-          </h3>
-          <p class="meta">Ready in 35–45 min · Serves 3–4</p>
-          <p class="description">
-            Easy tray-bake chicken with garlic, herbs, and vegetables.
-          </p>
-        </article>
-      </div>
-    </section>
-  </main>
+      <!-- Garlic chicken -->
+      <article class="recipe-card">
+        <span class="recipe-category">Dinner</span>
+        <h2>One-Pan Garlic Chicken</h2>
+        <p class="recipe-meta">Ready in 35–45 min · Serves 3–4</p>
+        <p class="recipe-description">
+          Easy tray-bake chicken with garlic, herbs, and vegetables.
+        </p>
+        <a class="recipe-link" href="recipe-garlic-chicken.html">View recipe</a>
+      </article>
+    </div>
+  </section>
+</main>
 
-  <footer class="site-footer">
-    <p>© 2025 Cooking Mania · All recipes</p>
-  </footer>
-</body>
-</html>
+<footer class="site-footer">
+  © 2025 Cooking Mania · All recipes
+</footer>
